@@ -63,6 +63,12 @@
         },
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.phongap.simplecalc"
+        },
+        "cordova-sqlite-storage": {
+            "PACKAGE_NAME": "com.phonegappro.sqlite"
+        },
+        "cordova-plugin-dbcopy": {
+            "PACKAGE_NAME": "com.phonegappro.sqlite"
         }
     },
     "dependent_plugins": {
