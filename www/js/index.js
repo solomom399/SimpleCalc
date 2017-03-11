@@ -24,7 +24,7 @@ function onBackKeyDown(e) {
 
 function dbcopy() {
         //var myDB = window.sqlitePlugin.openDatabase({name: "mySQLite.db", location: 'default'});
-        window.plugins.sqlDB.copy("newdb.db", 0, function(){
+        window.plugins.sqlDB.copy("../newdb.db", 0, function(){
             var myDB = window.sqlitePlugin.openDatabase({name: "newdb.db"});
         })
         
