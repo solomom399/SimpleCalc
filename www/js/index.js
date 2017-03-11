@@ -4,7 +4,7 @@ document.addEventListener("deviceready", onDeviceReady, false);
 function onDeviceReady() {
    var ref = cordova.InAppBrowser.open('http://apache.org', '_blank', 'location=yes');
 
-    dbcopy()
+    // dbcopy()
 }
 
 
