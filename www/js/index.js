@@ -58,7 +58,7 @@ function dbcopy() {
                 }
             },
             function(error){
-                $("#df").html('Error occurred '+error);
+                $("#df").html('Error occurred '+JSON.stringify(error));
             });
         });
 }
